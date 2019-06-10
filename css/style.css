@@ -1,0 +1,305 @@
+
+.nav>li{
+	float: left;
+	margin-right: 15px;
+}
+
+.nav li a{
+	margin-top: 10px;
+	padding: 10px;
+	line-height: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: black;
+	font-size: 16px;
+	text-decoration: none;
+}
+.nav>li>button{
+	margin-top: 10px;
+	width: 128px;
+	height: 40px;
+	background-color: #5DBB46;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+}
+.sub-menu li a{
+	text-transform: none;
+}
+.line{
+	border: 1px solid #5DBB46;
+	width: 175px;
+	margin-left: 20px;
+}
+.view-all{
+	text-align: center;
+}
+.content-web{
+	text-align: center;
+	font-weight: bold;
+	line-height: 29px;
+	text-transform: uppercase;
+}
+.banner-img{
+	position: relative;
+}
+.banner-img img{ 
+	width: 100%;
+}
+.banner-img button{
+	position: absolute;
+	bottom: -15px;
+	left: 220px;
+}
+.banner-content p{
+	padding-top: 20px;
+	text-align: center;
+}
+.service{
+	background-color: #F9F7F7;
+}
+.service-link li{
+	float: left;
+	padding: 5px 10px;
+	margin-right: 10px;
+	border: 1px solid #B8AA06;
+	border-radius: 2px;
+}
+.service-link li a{
+	text-decoration: none;
+	color: #707070;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.service-bgr-img{
+	background-image: url(../img/1.png);
+	height:530px;
+	width: 90%;
+	margin-bottom: 15px;
+	margin-left: 50px;
+	padding-top: 8px;
+}
+
+.service-detail{
+	background-color: rgba(204,204,204,0.7);
+	width: 400px;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+.service-detail-content{
+	text-transform: uppercase;
+	color: #666666;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+.service-detail-title{
+	color: #666666;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0px 20px;
+}
+.service-detail-button button{
+	background-color: #CCCCCC;
+	color: #5DBB46;
+	text-transform: uppercase;
+	border: 1px solid #5DBB46;
+	font-weight: bold;
+	margin-bottom: -400px;
+	margin-left: 150px;
+}
+#service-link-2,#service-link-3,#service-link-4,#service-link-5{
+	display: none;
+}
+
+.number{
+	background-image: url("../img/map.png");
+	height: 500px;
+	overflow: hidden;
+}
+.number-status h1{
+	text-align: center;
+	font-weight: bold;
+}
+.number-name{
+	text-align: center;
+	color: #5DBB46;
+}
+
+
+
+.content-web-1{
+	text-align: center;
+	line-height: 29px;
+	text-transform: uppercase;
+	color: #5DBB46;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.partner-banner img{
+	padding: 32px 100px;
+	width: 100%;
+}
+
+
+.dominance{
+	margin: 10px 0px;
+}
+.dominance-img{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.dominance-img img{
+	width: 100px;
+}
+.dominance-content{
+	text-align: center;
+	font-weight: bold;
+}
+.dominance-title{
+	text-align: center;
+	line-height: 25px;
+}
+
+
+.choice{
+	background-color: #5DBB46;
+}
+.choice h4{
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+.btn-choice{
+	text-align: center;
+}
+.choice .btn-choice button{
+	margin: 10px;
+	width: 150px;
+	font-weight: bold;
+}
+
+.app{
+	background-color: #F9F7F7;
+	padding-bottom: 20px;
+}
+.app-left-content{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 100px;
+}
+.app-left-title{
+	margin-top: 40px;
+	text-align: center;
+}
+.app-left-img{
+	margin-top: 40px;
+	text-align: center;
+}
+.app-left-img img{
+	width: 160px;
+	height: 40px;
+}
+.app-right img{
+	margin-top: 100px;
+	width: 200px;
+}
+.footer{
+	padding-top: 85px;
+}
+.footer-content{
+	color: #5DBB46;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.footer-logo{
+	margin-bottom: 10px;
+}
+.name-company{
+	margin-bottom: 10px;
+}
+.address{
+	margin-bottom: 10px;
+}
+.phone{
+	margin-bottom: 10px;
+}
+.footer-link ul{
+	margin-top: 10px;
+}
+.footer-link ul li{
+	line-height: 29px;
+}
+.footer-link ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+
+.list-mxh ul li{
+	float: left;
+}
+.list-mxh img{
+	width: 75%;
+}
+.qrcode img{
+	width: 70%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+   
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
