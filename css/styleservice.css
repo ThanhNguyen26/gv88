@@ -1,0 +1,114 @@
+.banner{
+	background-image: url('../img/service.png');
+	max-width: 100%;
+	height: 600px;
+}
+
+.banner-content{
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Segoe UI;
+	font-size: 30px;
+	padding-top: 280px;
+}
+.contact{
+	background-color: #F9F7F7;
+}
+.contact-right img{
+	max-width: 100%;
+	margin-top: 52px;
+	padding-right: 100px;
+}
+.contact-left{
+	margin-top: 52px;
+}
+.contact-left-content{
+	padding-left: 100px;
+	color: black;
+	font-size: 24px;
+	margin-bottom: 11px;
+}
+.contact-left-form{
+	padding-left: 100px;
+}
+.contact-left-form input{
+	margin-bottom: 12px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 5px; 
+	max-width: 300px;
+	height: 30px;
+	padding-left: 8px;
+}
+.contact-left-form textarea{
+	margin-bottom: 12px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 5px; 
+	max-width: 300px;
+	padding-left: 8px;
+}
+.contact-left button{
+	background-color: #5DBB46;
+	border-radius: 10px;
+	border:1px solid #5DBB46;
+	color: white;
+	max-width: 300px;
+	font-weight: bold;
+}
+.contact-left button:hover{
+	color: white;
+}
+
+.employ-left{
+	padding-bottom: 15px;
+}
+.employ-right{
+	background-color: #F9F7F7;
+	padding-bottom: 15px;
+}
+.employ-left .employ-content{
+	padding-right: 100px;
+}
+.employ-right .employ-content{
+	padding-left: 100px;
+}
+.employ-img img{
+	max-width: 50%;
+	height: 50%;
+	margin: 15px 0px;
+	margin-left: 100px;
+}
+.employ-content{
+
+}
+
+.name-service{
+	text-transform: uppercase;
+	color: black;
+	font-size: 22px;
+	margin-bottom: 32px;
+	margin-top: 50px;
+
+}
+.titlt-service{
+	line-height: 29px;
+	font-size: 16px;
+}
+.btn-service{
+	margin-top: 32px;
+}
+.btn-service a{
+	color: #5DBB46;
+	border:1px solid #5DBB46;
+	background-color: white;
+	border-radius: 3px;
+	width: 150px;
+	padding: 7px 13px;
+}
+.btn-service a:hover{
+	text-decoration: none;
+	color: #5DBB46;
+}

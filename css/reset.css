@@ -18,10 +18,10 @@ body{
 	padding-bottom: 100px;
 }
 
-.container{
+/*.container{
 		border: 1px solid red;
 }
-
+*/
 .btn-green{
 	background-color: #5DBB46;
 	color: white;
@@ -36,3 +36,84 @@ body{
 .width-300px{
 	width: 300px;
 }
+
+.quick-book{
+    position: fixed;
+    top: 300px;
+    max-width: 50px;
+    height: 82px;
+    left: auto;
+    right: 0px;
+    opacity: 0.8;
+    z-index: 9999;
+    cursor: pointer;
+    border: 1px solid #5DBB46;
+    background-color: #5DBB46;
+    border-radius: 8px 0px 0px 8px;
+    text-align: right;
+    padding-right: 3px;
+    padding-top: 8px;
+}
+.quick-book i{
+	font-size: 32px;
+	color: white;
+}
+.quick-book a{
+	color: white;
+	font-weight: bold;
+	font-family: Segoe UI;
+}
+.quick-pos{
+	position: relative;
+}
+.quick-pos i{
+	position: absolute;
+	top: 5px;
+	left: 0px;
+}
+.quick-book a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.back-to-top {
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: 0px;
+    bottom: 15px;
+    font-size: 50px;
+    opacity: 0.8;
+    z-index: 9999;
+    cursor: pointer;
+}
+.back-to-top:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

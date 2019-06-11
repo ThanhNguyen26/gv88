@@ -1,0 +1,26 @@
+@media screen and (max-width: 1024px){
+    .contact-right, .app-right, .footer-service, .footer-gv88, .footer-law{ display: none; }
+
+    .list-service .employ-img{ display: none; }
+
+    .employ-left .employ-content{ padding-right: 15px; }
+	.employ-right .employ-content{ padding-left: 15px; }
+
+	.header{display: none;}
+	.qrcode img{float: left;}
+
+}
+@media screen and (max-width: 400px){
+	.contact-left-form, .contact-left-content{ padding-left: 15px; }
+}
+@media screen and (min-width: 1024px){
+	.header-hide{
+		display: none;
+	}
+}
+@media screen and (max-width: 1024px){
+	.header-hide{
+		position: fixed;
+		z-index: 9999;
+	}
+}

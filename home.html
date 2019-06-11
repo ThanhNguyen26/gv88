@@ -8,15 +8,51 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
+	<link rel="stylesheet" type="text/css" href="dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="dist/owl.carousel.min.js"></script>
 </head>
 <body>
 
 <!-- header -->
 <div class="container">
+
+	<!-- header hide -->
+	<div class="row">
+		<div class="header-hide">
+			<div class="dropdown">
+			    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><i class="fas fa-bars"></i>
+			   <!--  <span class="caret"></span> --></button>
+			    <ul class="dropdown-menu">
+			      <li><a tabindex="-1" href="#">Trợ giúp</a></li>
+			      <li><a tabindex="-1" href="#">Đăng ký làm</a></li>
+			      <li><a tabindex="-1" href="#">Đăng nhập</a></li>
+			      <li class="dropdown-submenu">
+			        <a class="test" tabindex="-1" href="#">Dịch vụ<span class="caret"></span></a>
+			        <ul class="dropdown-menu">
+			          <li><a tabindex="-1" href="#">Giúp việc theo giờ</a></li>
+			          <li><a tabindex="-1" href="#">Giúp việc định kỳ</a></li>
+			          <li><a tabindex="-1" href="#">Giúp việc full-time (ở lại)</a></li>
+			          <li><a tabindex="-1" href="#">Tổng vệ sinh</a></li>
+			          <li><a tabindex="-1" href="#">Giúp việc khác</a></li>
+			          <!-- <li class="dropdown-submenu">
+			            <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+			            <ul class="dropdown-menu">
+			              <li><a href="#">3rd level dropdown</a></li>
+			              <li><a href="#">3rd level dropdown</a></li>
+			            </ul>
+			          </li> -->
+			        </ul>
+			      </li>
+			    </ul>
+			  </div>
+		</div>
+	</div>
+	<!-- top header -->
 	<div class="row">
 		<div class="header">
 			<div class="col-md-6"><img src="img/logo.png"></div>
@@ -49,6 +85,18 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="row sale">
+		<div class="sale-exit">
+			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">X</button>
+		</div>
+		<div  id="demo" class="collapse">
+			<div class="sale-content">Đăng ký dịch vụ ngay hôm nay để hưởng ưu đãi 30%.</div>
+			<div class="sale-click"><a href="#">Bắt đầu <i class="fas fa-arrow-right"></i></a></div>
+		</div>
+	</div>
+
+	<!-- banner -->
 	<div class="row">
 		<div class="banner">
 			<div class="container">
@@ -79,6 +127,7 @@
 		</div>
 	</div>
 
+	<!-- lisst service -->
 	<div class="row">
 		<div class="service">
 			<div class="container">
@@ -91,11 +140,11 @@
 					<div class="col-md-2"></div>
 					<div class="col-md-8">
 						<ul class="service-link">
-							<li id="link1"><a>Giúp việc theo giờ</a></li>
-				            <li id="link2"><a>Giúp việc định kỳ</a></li>
-				            <li id="link3"><a>Tổng vệ sinh</a></li>
-				            <li id="link4"><a>Giúp việc full-time (ở lại)</a></li>
-				            <li id="link5"><a>Giúp việc khác</a></li>
+							<li id="link1"><button>Giúp việc theo giờ</button></li>
+				            <li id="link2"><button>Giúp việc định kỳ</button></li>
+				            <li id="link3"><button>Tổng vệ sinh</button></li>
+				            <li id="link4"><button>Giúp việc full-time (ở lại)</button></li>
+				            <li id="link5"><button>Giúp việc khác</button></li>
 						</ul>
 					</div>
 					<div class="col-md-1"></div>
@@ -153,6 +202,8 @@
 		</div>
 	</div>
 
+
+	<!-- number -->
 	<div class="row">
 		<div class="number">
 			<div class="container">
@@ -169,53 +220,32 @@
 						<div class="number-name">Khách hàng được phục vụ</div>
 					</div>
 				</div>
+
+
+
 				<div class="row">
-					<div class="col-md-12">
-						<div class="carousel slide multi-item-carousel" id="theCarousel">
-							<div class="carousel-inner">
-								<div class="item active">
-									<div class="col-xs-4">
-										<a href="#1"><img src="http://placehold.it/300/f44336/000000" class="img-responsive"></a>
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-xs-4">
-										<a href="#1"><img src="http://placehold.it/300/f44336/000000" class="img-responsive"></a>
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-xs-4">
-										<a href="#1"><img src="http://placehold.it/300/9c27b0/000000" class="img-responsive"></a>
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-xs-4">
-										<a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a>
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-xs-4">
-										<a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a>
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-xs-4">
-										<a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a>
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-xs-4">
-										<a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a>
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-xs-4">
-										<a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a>
-									</div>
-								</div>
-								<a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-        						<a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-							</div>
+					<div class="col-md-12 list-user liii">
+						<div class="owl-carousel owl-theme">
+						    <div class="item">
+						    	<div class="user-avatar"><img src="img/user1.png"></div>
+								<div class="name-user">Mỹ Uyên</div>
+								<div class="user-report">Dịch vụ khá linh động phù hợp với những gia đình bận rộn như nhà mình, giá cả hợp lý.... mình có nhiều thời gian hơn để dành cho gia đình và công việc</div>
+						    </div>
+						    <div class="item">
+						    	<div class="user-avatar"><img src="img/user.png"></div>
+								<div class="name-user">Thùy Linh</div>
+								<div class="user-report">Dịch vụ khá linh động phù hợp với những gia đình bận rộn như nhà mình, giá cả hợp lý.... mình có nhiều thời gian hơn để dành cho gia đình và công việc</div>
+						    </div>
+						    <div class="item">
+						    	<div class="user-avatar"><img src="img/user.png"></div>
+								<div class="name-user">Thùy Linh</div>
+								<div class="user-report">Dịch vụ khá linh động phù hợp với những gia đình bận rộn như nhà mình, giá cả hợp lý.... mình có nhiều thời gian hơn để dành cho gia đình và công việc</div>
+						    </div>
+						    <div class="item">
+						    	<div class="user-avatar"><img src="img/user2.png"></div>
+								<div class="name-user">Mỹ Uyên</div>
+								<div class="user-report">Dịch vụ khá linh động phù hợp với những gia đình bận rộn như nhà mình, giá cả hợp lý.... mình có nhiều thời gian hơn để dành cho gia đình và công việc</div>
+						    </div>
 						</div>
 					</div>
 				</div>
@@ -224,7 +254,7 @@
 	</div>
 
 
-
+	<!-- list partner -->
 	<div class="row">
 		<div class="partner">
 			<div class="container">
@@ -241,7 +271,7 @@
 		</div>
 	</div>
 
-
+	<!-- domniance -->
 	<div class="row">
 		<div class="dominance">
 			<div class="container">
@@ -249,17 +279,17 @@
 					<h4 class="content-web-1">Ưu thế của chúng tôi</h4>
 				</div>
 				<div class="row">
-					<div class="col-md-4 width-300px">
+					<div class="col-md-4 width-300px margin-auto">
 						<div class="dominance-img"><img src="img/icon.png"></div>
 						<div class="dominance-content">Dịch vụ vượt trội</div>
 						<div class="dominance-title">Chúng tôi tận tay chọn tất cả các Ưu điểm đáng tin cậy của chúng tôi để đảm bảo rằng khách hàng của chúng tôi đang nhận được trải nghiệm tốt nhất có thể</div>
 					</div>
-					<div class="col-md-4 width-300px">
+					<div class="col-md-4 width-300px margin-auto">
 						<div class="dominance-img"><img src="img/icon1.png"></div>
 						<div class="dominance-content">Giá cả hợp lý</div>
 						<div class="dominance-title">Với giá cả rõ ràng cho từng dịch vụ, bạn có thể yên tâm rằng bạn đang trả mức giá hợp lý hàng giờ cho dịch vụ của mình</div>
 					</div>
-					<div class="col-md-4 width-300px">
+					<div class="col-md-4 width-300px margin-auto">
 						<div class="dominance-img"><img src="img/icon2.png"></div>
 						<div class="dominance-content">Đặt lịch dễ dàng</div>
 						<div class="dominance-title">Đặt lịch và thanh toán trực tuyến  của chúng tôi giúp giải quyết yêu cầu của bạn dễ dàng</div>
@@ -270,7 +300,7 @@
 	</div>
 
 
-
+	<!-- list choice -->
 	<div class="row choice">
 		<div class="container">
 			<div class="row"><h4>Lựa chọn nhu cầu của bạn</h4></div>
@@ -281,7 +311,7 @@
 		</div>
 	</div>
 
-
+	<!-- app -->
 	<div class="row app">
 		<div class="col-md-7 app-left">
 			<div class="app-left-content">ứng dụng giúpviệc88</div>
@@ -291,14 +321,14 @@
 				<a href="#"><img src="img/ios.png"></a>
 			</div>
 		</div>
-		<div class="col-md-5 app-right">
-			<img src="img/phone.png">
+		<div class="col-md-5 app-right margin-auto">
+			<div><img src="img/phone.png"></div>
 		</div>
 	</div>
 
-
+	<!-- footer -->
 	<div class="row footer">
-		<div class="col-md-3">
+		<div class="col-md-3 footer-service">
 			<div class="footer-content">Dịch vụ</div>
 			<div class="footer-link">
 				<ul>
@@ -310,7 +340,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 footer-gv88">
 			<div class="footer-content">Giúp việc 88</div>
 			<div class="footer-link">
 				<ul>
@@ -319,7 +349,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 footer-law">
 			<div class="footer-content">Chính sách</div>
 			<div class="footer-link">
 				<ul>
@@ -328,7 +358,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 footer-public">
 			<div class="footer-logo"><img src="img/logo.png"></div>
 			<div class="name-company">Công ty TNHH Thương Mại và Phát Triển Dịch Vụ Thanh Bình</div>
 			<div class="address"><i class="fas fa-map-marker-alt"></i> Trụ sở: Số 25 ngõ 62 Trần Bình - Mai Dịch - Cầu Giấy - Hà Nội</div>
@@ -346,12 +376,43 @@
 			<div class="qrcode"><img src="img/qrcode.png"></div>
 		</div>
 	</div>
+
+	<div class="quick-book">
+		<div class="quick-pos">
+			<i class="fas fa-bolt"></i>
+			<a href="#">Đặt lịch nhanh</a>
+		</div>
+	</div>
+
+
+	<div id="back-to-top" class="back-to-top" data-toggle="tooltip" data-placement="left" title="Trở lên đầu trang"><span class="glyphicon glyphicon-circle-arrow-up text-success"></span></div>
 </div>
 
 
+<!-- slide user -->
+<script type="text/javascript">
+	$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    margin:10,
+	    nav:true,
+	    autoplay:true,
+	    autoplayTimeout:5000,
+	    autoplayHoverPause:true,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:2
+	        },
+	        1000:{
+	            items:3
+	        }
+	    }
+	})
+</script>
 
-
-
+<!-- show hide slide -->
 <script> 
 	$(document).ready(function(){
 		$("#link1").click(function(){
@@ -392,30 +453,12 @@
 	});
 </script>
 
+
+<!-- back to top -->
 <script type="text/javascript">
-	
-// Instantiate the Bootstrap carousel
-$('.multi-item-carousel').carousel({
-	interval: false
-});
-
-// for every slide in carousel, copy the next slide's item in the slide.
-// Do the same for the next, next item.
-$('.multi-item-carousel .item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-  
-  if (next.next().length>0) {
-    next.next().children(':first-child').clone().appendTo($(this));
-  } else {
-  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-  }
-});
+	$("#back-to-top").click(function(){return $("body, html").animate({scrollTop:0},400),!1});
+$(function(){$('[data-toggle="tooltip"]').tooltip()});
 </script>
-
 
 
 
